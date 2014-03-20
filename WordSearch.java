@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class WordSearch {
 	
 	public static void main(String[] args) throws IOException{
-		String filename = "src/sample.txt";
+		String filename = "sample.txt";
 		String[] toFind = wordList(filename);
 		WordGrid wg = new WordGrid(toFind);
 		solve(toFind, wg);
